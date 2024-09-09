@@ -1,0 +1,48 @@
+.box {
+    background-color: black;
+    padding: 15px;
+    width: calc(50% - 35px);
+    background-image: radial-gradient(#fff,transparent);
+    position: relative;
+}
+.box.L  {
+    height: 250px;
+}
+.box.M {
+    height: 100px;
+}
+.box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+.number {
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+}
+.button {
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.button-green {
+    background-color: #0eba81;
+    color: white;
+}
+.button-yellow {
+    background-color: #f9ad14;
+    color: white;
+
+}
